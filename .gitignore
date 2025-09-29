@@ -1,0 +1,8 @@
+
+#Ignorar O DataFrame, dados salvos, o modelo, e o dataset inteiro (será mandado so uma parte)
+
+*.joblib
+Dados_tratados_IMBD/
+data/IMDB Dataset.csv
+.vscode/
+venv/
