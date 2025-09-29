@@ -8,12 +8,14 @@ a outra a classificação (positiva ou negativa)
 ## Ferramentas
 
 **Linguagem**: 
-* Python 3.13.5
+    
+    * Python 3.13.5
 
-**Bibliotecas**: 
-    * scikit-learn 1.7.1
-    * pandas 2.3.2
-    * joblib 1.5.1
+**Bibliotecas**:
+
+    * Scikit-learn 1.7.1
+    * Pandas 2.3.2
+    * Joblib 1.5.1
 
 ## Instruçoes 
    **Instale as dependências**: `pip install -r requirements.txt`
