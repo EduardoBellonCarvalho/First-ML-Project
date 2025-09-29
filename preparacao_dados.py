@@ -2,9 +2,9 @@ import pandas as pd
 from sklearn.feature_extraction.text import TfidfVectorizer
 from sklearn.model_selection import train_test_split
 
-#Se for usar a Sub data comente a linha abaixo e descomente a proxima
-df = pd.read_csv(r"data\IMDB Dataset.csv")
-#df = pd.read_csv(r"data\SubData.csv")
+#Se for usar a data completa descomente a linha abaixo e comente a proxima
+#df = pd.read_csv(r"data/IMDB Dataset.csv")
+df = pd.read_csv(r"data/SubData.csv")
 
 #Preparar strings para a vetorização
 df["review"] = df["review"].str.lower()
